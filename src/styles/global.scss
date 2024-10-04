@@ -1,0 +1,28 @@
+:root {
+    --background-color: rgb(49,120,198);
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+    background: transparent;
+    /* background: #cccccc;
+    */
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2a2a2a;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    z-index: 10 !important;
+    background: rgb(108, 108, 108);
+    cursor: pointer;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }
+
+.header-container {
+    background-color: var(--background-color);
+}
