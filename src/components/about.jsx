@@ -1,5 +1,5 @@
 import '../styles/components.scss'
-
+import Button from '../components/button.jsx'
 
 const AboutSection = () => {
     return (
@@ -17,6 +17,9 @@ const AboutSection = () => {
                             I am passionate about clean code and innovative design, always striving to create seamless digital experiences that make a real impact.
                         </p>
                         <h1 className='jatin'>Tech Stack</h1>  
+                        <div className = "tech-button-container">
+                            <Button />
+                        </div>
                     </div>
                 </div>
                 <div className='about-links'></div>

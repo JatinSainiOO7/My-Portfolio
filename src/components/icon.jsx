@@ -1,4 +1,3 @@
-import '../styles/components.scss'
 
 const IconComponent = () => {
     return (

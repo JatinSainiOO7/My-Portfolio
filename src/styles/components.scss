@@ -4,8 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    // border: red solid 1px;
 }
-
 
 h1{
     color: white;
@@ -30,6 +30,7 @@ strong {
 }
 
 a, ul, li {
+    width:min-content;
     list-style-type: none;
     text-decoration: none;
     color: #fff;
@@ -125,8 +126,6 @@ pre {
 // ================================================================= //
 
 .hero-container {
-    width: 100%;
-    height: fit-content;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -141,7 +140,6 @@ pre {
 
     .coll {
         width: 100%;
-        height: inherit;
         min-width: 300px;
         padding: 3em;
 
@@ -149,7 +147,7 @@ pre {
             font-weight: 200;
         }
 
-        .sulogan, .coll-button {
+        .sulogan{
             padding-top: 5%;
             padding-bottom: 5%;
         }
@@ -181,35 +179,6 @@ pre {
                 height: 40vh;
                 background-color:  rgb(42, 101, 164);
             }
-        }
-    }
-
-    
-    .visit-button {
-        width: max-content;
-        border: none;
-        align-items: center;
-        background-color: rgba(49, 121, 198, 0.8);
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-        background-color: white;
-        padding: 1%;
-        // letter-spacing: 0.1em;
-        transition: ease-in-out 0.2s;
-
-        .visit-container {
-            padding-right: 1em;
-            border-right: solid 2px black
-        }
-        .visit-img {
-            width: 30px;
-            height: 30px;
-            // margin-left: 0.5rem;
-            // background-color: black;
-            background-image: url(https://www.svgrepo.com/show/512317/github-142.svg);
-            background-size: contain;
-            background-repeat: no-repeat;
         }
     }
 
@@ -282,6 +251,12 @@ pre {
                 padding: none;
                 font-size: large;
                 color: black;
+            }
+
+            .tech-button-container {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
             }
         }
     }
