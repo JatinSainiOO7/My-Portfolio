@@ -10,21 +10,20 @@
   }
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2a2a2a;
+    background: #000000;
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
     z-index: 10 !important;
-    background: rgb(108, 108, 108);
+    background: rgb(121, 121, 121);
     cursor: pointer;
   }
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 0);
-  }
-
 .header-container {
     background-color: var(--background-color);
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .visit-button {
