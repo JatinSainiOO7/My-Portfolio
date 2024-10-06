@@ -1,5 +1,6 @@
-import "../styles/components.scss";
+import "../styles/components.scss"
 import github from '../assets/svg/github.svg'
+import Icon from './icon.jsx'
 const HeroSection = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const HeroSection = () => {
                 <h5>visit my GitHub</h5>
               </div>
               <div className="visit-img">
-                <img src={github} alt="" />
+                <Icon icon = {github} />
               </div>
             </a>
         </div>

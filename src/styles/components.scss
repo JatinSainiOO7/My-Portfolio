@@ -202,11 +202,73 @@ pre {
 
 // ================================================================= //
 
-.slider-container {
-    width: 100%;
-    height: auto;
+.slider-section {
     background-color: black;
+    white-space: nowrap;
+    cursor: pointer;
+    position: relative;
+
+    .slider-container {
+        width: auto;
+        padding: 0.2%;
+        display: inline-flex;
+        animation: slide 30s linear infinite;
+
+        @keyframes slide {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    
+
+        .slider-item {
+            width: max-content;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            margin: 0 30px;
+            white-space: nowrap;
+
+            .slider-name {
+                color: white;
+                font-size: 30px;
+                font-weight: 200;
+            }
+
+            img {
+                width: 40px;
+            }
+        }
+    }
 }
+
+.slider-section:hover .slider-container {
+    animation-play-state: paused;
+}
+
+.slider-section:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    content: " ";
+    z-index: 2;
+    background: linear-gradient(to left, transparent, rgb(0, 0, 0))
+};
+.slider-section:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 100%;
+    content: " ";
+    z-index: 2;
+    background: linear-gradient(to right, transparent, rgb(0, 0, 0))
+};
 
 // ================================================================= //
 
@@ -422,7 +484,7 @@ pre {
 }
 .contact-section {
     margin-top: 1rem;
-    
+
     .connect {
         display: flex;
         justify-content: center;
@@ -430,7 +492,7 @@ pre {
 
         form {
             width: 800px;
-            
+
             .input-box {
                 width: 100%;
                 padding: 10px;
@@ -441,10 +503,11 @@ pre {
 
                 label {
                     font-size: 2rem;
-                    color: var(--background-color)
+                    color: var(--background-color);
                 }
 
-                input, textarea {
+                input,
+                textarea {
                     color: rgb(0, 0, 0);
                     font-size: 20px;
                     background: transparent;
@@ -468,7 +531,7 @@ pre {
             button {
                 padding: 0.5% 2%;
             }
-                
+
             .submit {
                 font-size: 20px;
                 color: rgb(255, 255, 255);

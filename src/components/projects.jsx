@@ -23,12 +23,13 @@ const ProjectsSection = () => {
       img: "https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/white/Photoroom_white_background_extremely_fine_texture_only_white_co_9eaf61eb-311d-49fc-b703-a2477a59d2ce.jpg",
       link: "http://",
     },
+    
   ];
 
   return (
     <div>
       <center>
-        <h1 className="project-title">Projects_</h1>
+        <h1 className="project-title">My Projects_</h1>
       </center>
       <section className="project-section">
         {projects.map((item) => {
