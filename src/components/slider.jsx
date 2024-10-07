@@ -1,6 +1,7 @@
 import "../styles/components.scss";
 
-import github from "../assets/svg/github.svg";
+
+import github from "../assets/svg/githubWhite.svg";
 import figma from "../assets/svg/figma.svg";
 import p5 from "../assets/svg/p5.svg";
 import python from "../assets/svg/python.svg";
@@ -11,107 +12,103 @@ import three from "../assets/svg/three.svg";
 import vs from "../assets/svg/vs.svg";
 import vscode from "../assets/svg/vscode.svg";
 import webstrom from "../assets/svg/webstrom.svg";
+import Git from "../assets/svg/git.svg";
+
+
 const SliderComponent = () => {
   // TODO: Implement a slider component using HTML, CSS, and JavaScript, with dynamic content.
   // You can use libraries like React Swiper or Slick for creating the slider.
   // Ensure that the slider component is responsive and adapts to different screen sizes.
+
+const SliderItem = [
+  {
+    id: 1,
+    img: github,
+    name: "GitHub",
+  },
+  {
+    id: 2,
+    img: figma,
+    name: "Figma",
+  },
+  {
+    id: 3,
+    img: scss,
+    name: "SCSS",
+  },
+  {
+    id: 4,
+    img: vs,
+    name: "VisualStudio",
+  },
+  {
+    id: 5,
+    img: vscode,
+    name: "VsCode",
+  },
+  {
+    id: 6,
+    img: tailwind,
+    name: "TailwindCss",
+  },
+  {
+    id: 7,
+    img: three,
+    name: "P5.js",
+  },
+  {
+    id: 8,
+    img: webstrom,
+    name: "webstrom",
+  },
+  {
+    id: 9,
+    img: react,
+    name: "React",
+  },
+  {
+    id: 10,
+    img: python,
+    name: "Python",
+  },
+  {
+    id: 11,
+    img: p5,
+    name: "P5.js",
+  },
+  {
+    id: 12,
+    img: Git,
+    name: "Git",
+  },
+];
+
   return (
-    <>
+    <div>
       <div className="slider-section">
-        <div className="slider-container">
-          <div className="slider-item">
-            <img src={react} />
-            <p className="slider-name">React</p>
-          </div>
-          <div className="slider-item">
-            <img src={three} />
-            <p className="slider-name">Three.js</p>
-          </div>
-          <div className="slider-item">
-            <img src={vscode} />
-            <p className="slider-name">VsCode</p>
-          </div>
-          <div className="slider-item">
-            <img src={scss} />
-            <p className="slider-name">SCSS</p>
-          </div>
-          <div className="slider-item">
-            <img src={tailwind} />
-            <p className="slider-name">TailwindCss</p>
-          </div>
-          <div className="slider-item">
-            <img src={vs} />
-            <p className="slider-name">VisuaStudio</p>
-          </div>
-          <div className="slider-item">
-            <img src={p5} />
-            <p className="slider-name">P5.js</p>
-          </div>
-          <div className="slider-item">
-            <img src={figma} />
-            <p className="slider-name">Figma</p>
-          </div>
-          <div className="slider-item">
-            <img src={github} />
-            <p className="slider-name">GitHub</p>
-          </div>
-          <div className="slider-item">
-            <img src={python} />
-            <p className="slider-name">Python</p>
-          </div>
-          <div className="slider-item">
-            <img src={webstrom} />
-            <p className="slider-name">WebStrom</p>
-          </div>
+      <div className="slider-container">
+        {SliderItem.map((item) => {
+          return (
+              <div key={item.id} className="slider-item">
+                <img src={item.img} />
+                <p className="slider-name">{item.name}</p>
+              </div>
+          );
+        })}
         </div>
         <div className="slider-container">
-          <div className="slider-item">
-            <img src={react} />
-            <p className="slider-name">React</p>
-          </div>
-          <div className="slider-item">
-            <img src={three} />
-            <p className="slider-name">Three.js</p>
-          </div>
-          <div className="slider-item">
-            <img src={vscode} />
-            <p className="slider-name">VsCode</p>
-          </div>
-          <div className="slider-item">
-            <img src={scss} />
-            <p className="slider-name">SCSS</p>
-          </div>
-          <div className="slider-item">
-            <img src={tailwind} />
-            <p className="slider-name">TailwindCss</p>
-          </div>
-          <div className="slider-item">
-            <img src={vs} />
-            <p className="slider-name">VisuaStudio</p>
-          </div>
-          <div className="slider-item">
-            <img src={p5} />
-            <p className="slider-name">P5.js</p>
-          </div>
-          <div className="slider-item">
-            <img src={figma} />
-            <p className="slider-name">Figma</p>
-          </div>
-          <div className="slider-item">
-            <img src={github} />
-            <p className="slider-name">GitHub</p>
-          </div>
-          <div className="slider-item">
-            <img src={python} />
-            <p className="slider-name">Python</p>
-          </div>
-          <div className="slider-item">
-            <img src={webstrom} />
-            <p className="slider-name">WebStrom</p>
-          </div>
+        {SliderItem.map((item) => {
+          return (
+              <div key={item.id} className="slider-item">
+                <img src={item.img} />
+                <p className="slider-name">{item.name}</p>
+              </div>
+          );
+        })}
         </div>
       </div>
-    </>
+    </div>
   );
 };
+
 export default SliderComponent;

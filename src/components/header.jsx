@@ -1,9 +1,7 @@
 import '../styles/global.scss';
-
 import Navbar from './navbar.jsx'
 import Hero from './hero.jsx'
 import Slider from './slider.jsx'
-
 
 const HeaderSection = () => {
     return (
