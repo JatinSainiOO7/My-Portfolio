@@ -5,43 +5,43 @@ const ContectComponents = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
-    
+
         formData.append("access_key", "8dfa6937-287a-483b-a0f2-32ec3fe9abe0");
-    
+
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
-    
+
         const res = await fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json"
-          },
-          body: json
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: json
         }).then((res) => res.json());
-    
+
         if (res.success) {
             Swal.fire({
                 title: "Success!",
                 text: "Messege sent successfully!",
                 icon: "success"
-              });
+            });
         }
-      };
-    
+    };
+
     return (
         <>
-        <center><h1 className="contact-title">Get In Touch_</h1></center>
+            <center><h1 className="contact-title">Get In Touch_</h1></center>
             <div className="contact-section">
                 <section className="connect">
-                    <form onSubmit={onSubmit}> 
+                    <form onSubmit={onSubmit}>
                         <div className="input-box">
                             <label>Full Name</label>
                             <input
                                 type="text"
                                 className="field"
                                 placeholder="Enter Your Name"
-                                name = "name"
+                                name="name"
                                 required
                             />
                         </div>
