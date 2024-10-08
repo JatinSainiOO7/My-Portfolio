@@ -54,12 +54,12 @@ const SliderItem = [
   {
     id: 7,
     img: three,
-    name: "P5.js",
+    name: "Three.js",
   },
   {
     id: 8,
     img: webstrom,
-    name: "webstrom",
+    name: "WebStrom",
   },
   {
     id: 9,
@@ -74,7 +74,7 @@ const SliderItem = [
   {
     id: 11,
     img: p5,
-    name: "P5.js",
+    name: "p5.js",
   },
   {
     id: 12,

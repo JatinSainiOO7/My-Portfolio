@@ -205,14 +205,16 @@ pre {
 .slider-section {
     background-color: black;
     white-space: nowrap;
+    animation: smooth;
     cursor: pointer;
     position: relative;
 
     .slider-container {
         width: auto;
-        padding: 0.2%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
         display: inline-flex;
-        animation: slide 30s linear infinite;
+        animation: slide 60s linear infinite;
 
         @keyframes slide {
             from {
@@ -234,8 +236,8 @@ pre {
 
             .slider-name {
                 color: white;
-                font-size: 30px;
-                font-weight: 200;
+                font-size: 20px;
+                font-weight: 300;
             }
 
             img {
