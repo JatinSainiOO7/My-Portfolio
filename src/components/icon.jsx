@@ -10,11 +10,11 @@ import three from '../assets/svg/three.svg';
 import vs from '../assets/svg/vs.svg';
 import vscode from '../assets/svg/vscode.svg';
 import webstrom from '../assets/svg/webstrom.svg'
-const IconComponent = ( {icon} ) => {
+const IconComponent = (  ) => {
     return (
         <>
         <div>
-            <img src={icon} />
+            <img src={github} />
         </div>
         </>
     )

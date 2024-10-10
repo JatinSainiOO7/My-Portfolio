@@ -50,7 +50,20 @@ body {
       background-repeat: no-repeat;
   }
 }
-
 .visit-button:hover {
   background-color: rgba(255, 255, 255, 0.799);
+}
+
+
+/* Styles for the link button */
+.link-button {
+  position: relative; /* Important for positioning the pop-up */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
 }

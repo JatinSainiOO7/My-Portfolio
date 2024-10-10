@@ -1,3 +1,4 @@
+
 import "../styles/components.scss";
 import jatin from "../assets/jatin.jpg";
 import Button from "../components/button.jsx";

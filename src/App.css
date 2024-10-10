@@ -1,0 +1,36 @@
+/* Style your button and icons */
+.theme-bitton {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    z-index: 10;
+    background-color:  rgb(49,120,198);
+    border: none;
+}
+
+button svg {
+    /* Apply your desired icon styles here */
+    width: 20px;
+    height: 20px;
+    fill: rgb(255,255,255);
+    transition: ease-in-out 0.2s;
+}
+
+button svg:hover {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 2rem;
+}
+
+/* Light theme styles */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark theme styles */
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
