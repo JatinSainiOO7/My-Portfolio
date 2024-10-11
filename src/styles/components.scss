@@ -387,45 +387,48 @@ pre {
                 /* Pop-up container that appears on hover */
             }
             /* Styles for the link button */
-.link-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-    margin: 20px;
-  }
-  
-  /* Pop-up container that appears on hover */
-  .popup-container {
-    position: absolute; /* Use absolute positioning */
-    width: 200px; /* Fixed size */
-    height: 200px;
-    // background-color: rgba(0, 102, 255, 0.129);
-    border: 1px solid #ddd;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-    border: none;
-    pointer-events: none; /* Prevent interaction with the pop-up */
-    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 57% 95%, 50% 100%, 42% 95%, 0 95%);
-    transition: ease-in-out 0.05s;
-  }
-  
-  /* Styles for the image inside the pop-up container */
-  .popup-image {
-    width: 100%;
-    height: 100%;
-    position: center;
-    object-fit: cover;
-  }
-  
-  /* Additional hover effects (optional) */
-  .link-button:hover {
-    background-color: #0056b3;
-  }
-  
+            .link-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                margin: 20px;
+            }
+
+            /* Pop-up container that appears on hover */
+            .popup-container {
+                position: absolute; /* Use absolute positioning */
+                width: 200px; /* Fixed size */
+                height: 200px;
+                background-color: rgb(0, 0, 0);
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                z-index: 10;
+                border: none;
+                pointer-events: none; /* Prevent interaction with the pop-up */
+                clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 57% 95%, 50% 100%, 42% 95%, 0 95%);
+                transition: ease-in-out 0.02s;
+            }
+
+            /* Styles for the image inside the pop-up container */
+            .popup-image {
+                padding: 20%;
+                position: center;
+                object-fit: cover;
+                transition: ease-in-out 1s; 
+            }
+            .popup-image:hover {
+                scale: 100%;
+            }
+
+            /* Additional hover effects (optional) */
+            .link-button:hover {
+                background-color: #0056b3;
+            }
         }
     }
 }
