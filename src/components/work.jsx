@@ -8,7 +8,7 @@ const WorkSection = () => {
             <div className='work-card-container'>
                 <div className='card'>
                     <center><div className="card-img"></div></center>
-                    <center><h1 className='card-title'>Frontend Developement</h1></center>
+                    <center><h1 className='card-title'>Frontend Development</h1></center>
                     <center><p className='card-dis'>Crafting sleek, responsive, and modern web applications</p></center>
                 </div>
                 <div className='card'>

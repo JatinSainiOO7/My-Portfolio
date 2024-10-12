@@ -1,4 +1,4 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -429,8 +429,16 @@ pre {
             .link-button:hover {
                 background-color: #0056b3;
             }
-        }
+
+            .links {
+                width: auto;
+                height: auto;
+                display: inline-block;
+            }
+        } 
     }
+
+   
 }
 
 // ================================================================= //
@@ -586,7 +594,14 @@ pre {
         align-items: center;
 
         form {
-            width: 800px;
+            width: 600px;
+            border: var(--background-color) solid 1px;
+            border-radius: 10px;
+            display: block;
+            align-items: center;
+            background-color: #fafcff;
+            margin: 1%;
+            padding: 1%;
 
             .input-box {
                 width: 100%;
@@ -623,17 +638,38 @@ pre {
                     resize: none;
                 }
             }
-            button {
-                padding: 0.5% 2%;
-            }
 
             .submit {
-                font-size: 20px;
-                color: rgb(255, 255, 255);
+                font-size: 30px;
+                width: 100%;
+                align-items: center;
+                color: var(--background-color);
                 border-radius: 5px;
-                background-color: var(--background-color);
-                border: solid 1px white;
+                border: solid 1px var(--background-color);
             }
         }
     }
 }
+ //------------------------------------------------------------------------------------------------
+
+ .footer-slider {
+    width: 100%;
+    margin-top: 5rem ;
+ }
+ .footer-section {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    background-color: var(--background-color);
+    border: black 2px solid;
+
+    .f-p{
+        width: fit-content;
+        color: #ffffffb2;
+        font-size: medium;
+    }
+
+    .hov:hover {
+        scale: 110%;
+    }
+ }

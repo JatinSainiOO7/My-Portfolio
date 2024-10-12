@@ -1,7 +1,7 @@
-
 import "../styles/components.scss";
 import jatin from "../assets/jatin.jpg";
 import Button from "../components/button.jsx";
+import Links from "../components/link.jsx";
 
 const AboutSection = () => {
   return (
@@ -29,9 +29,12 @@ const AboutSection = () => {
             <div className="tech-button-container">
               <Button />
             </div>
+            <div className="links">
+            <h1 className="jatin">Connect</h1>
+              <Links/>
+            </div>
           </div>
         </div>
-        <div className="about-links"></div>
       </div>
     </>
   );

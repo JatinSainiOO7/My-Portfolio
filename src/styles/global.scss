@@ -1,25 +1,25 @@
 :root {
-    --background-color: rgb(49,120,198);
+  --background-color: rgb(49, 120, 198);
 }
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 3px;
-    background: transparent;
-    /* background: #cccccc;
+  width: 8px;
+  height: 3px;
+  background: transparent;
+  /* background: #cccccc;
     */
-  }
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000000;
-  }
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    z-index: 10 !important;
-    background: rgb(121, 121, 121);
-    cursor: pointer;
-  }
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  z-index: 10 !important;
+  background: rgb(121, 121, 121);
+  cursor: pointer;
+}
 .header-container {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 body {
@@ -39,21 +39,19 @@ body {
   transition: ease-in-out 0.2s;
 
   .visit-container {
-      padding-right: 1em;
-      border-right: solid 2px black;
-
+    padding-right: 1em;
+    border-right: solid 2px black;
   }
   .visit-img {
-      width: 30px;
-      height: 30px;
-      background-size: contain;
-      background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 .visit-button:hover {
   background-color: rgba(255, 255, 255, 0.799);
 }
-
 
 /* Styles for the link button */
 .link-button {
@@ -68,3 +66,48 @@ body {
   margin: 20px;
 }
 
+.link-container {
+  padding-right: 1em;
+  padding-top: 10px;
+  display: inline-flex;
+  gap: 50px;
+
+  li {
+    width: max-content;
+    list-style-type: none;
+  }
+  a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+
+    p {
+      color: rgb(0, 0, 0);
+      font-size: large;
+      font-weight: 500;
+      padding: 5%;
+    }
+
+    img {
+      padding: 1%;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+a:hover {
+  p {
+    font-weight: 500;
+    font-size: large;
+  }
+
+  img {
+    scale: 111%;
+    padding: 1%;
+    width: 30px;
+    height: 30px;
+  }
+}
