@@ -80,44 +80,6 @@ pre {
     padding-bottom: 2rem;
 }
 
-.card {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    // border-radius: 10px;
-    cursor: pointer;
-    transition: ease-in-out 0.2s;
-    border: 1px solid var(--background-color);
-
-    .card-title {
-        font-size: 1.2rem;
-        margin-top: 2rem;
-        font-weight: 500;
-        color: black;
-        margin-bottom: 1rem;
-    }
-
-    .card-dis {
-        color: black;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }
-    .card-img {
-        width: 80px;
-        height: 80px;
-        margin-top: 1rem;
-        border-radius: 100px;
-        background-color: aqua;
-    }
-}
-
-.card:hover {
-    z-index: 10;
-    scale: 105%;
-    box-shadow:
-        var(--background-color) 0px 3px 6px,
-        rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
 .navbar-container {
     width: 100%;
     padding: 1%;
@@ -159,7 +121,7 @@ pre {
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1200px) {
         width: 100%;
         height: auto;
         flex-direction: column;
@@ -185,17 +147,14 @@ pre {
         }
 
         .slide-window {
-            width: 100%;
-            height: 100%;
+            width: 500px;
+            height: 300px;
             overflow: hidden;
             background-color: rgba(49, 121, 198);
             border: 1px rgba(255, 255, 255, 0.66) solid;
             border-radius: 0.5em;
 
             .slide {
-                width: 100%;
-                max-width: 100%;
-                height: 40px;
                 border-bottom: 1px rgba(255, 255, 255, 0.66) solid;
                 align-items: center;
                 cursor: pointer;
@@ -207,7 +166,7 @@ pre {
             }
             .result {
                 width: inherit;
-                height: 40vh;
+                height: inherit;
                 background-color: rgb(42, 101, 164);
             }
         }
@@ -253,12 +212,12 @@ pre {
 
             .slider-name {
                 color: white;
-                font-size: 20px;
+                font-size: 1rem;
                 font-weight: 300;
             }
 
             img {
-                width: 40px;
+                width: 1.6rem;
             }
         }
     }
@@ -477,6 +436,66 @@ pre {
             justify-content: 1rem;
             align-items: center;
         }
+    }
+
+    .card {
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        // border-radius: 10px;
+        cursor: pointer;
+        transition: ease-in-out 0.2s;
+        border: 1px solid var(--background-color);
+    
+        .card-title {
+            font-size: 1.2rem;
+            margin-top: 2rem;
+            font-weight: 500;
+            color: black;
+            margin-bottom: 1rem;
+        }
+    
+        .card-dis {
+            color: black;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .card-img {
+            width: 80px;
+            height: 80px;
+            margin-top: 1rem;
+            border-radius: 100px;
+            border: black solid 2px;
+            padding: 5%;
+    
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .card:hover {
+        z-index: 10;
+        scale: 105%;
+        box-shadow:
+            var(--background-color) 0px 3px 6px,
+            rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+            .card-title {
+                color: var(--background-color);
+            }
+        
+            .card-dis {
+                color: var(--background-color);
+            }
+        
+            .card-img {
+                border: var(--background-color) solid 2px;
+    
+            }    
     }
 }
 
