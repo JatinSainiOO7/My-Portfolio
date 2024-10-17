@@ -1,6 +1,5 @@
 
 import "../styles/components.scss";
-import light from '../assets/svg/light-theme-button.svg'
 const NavigationSection = () => {
 
 
@@ -8,18 +7,17 @@ const NavigationSection = () => {
         <nav className="navbar-container">
             <div>
                 <a href="/">
-                    <p className="jatin">Jatin Saini</p>
+                   <div className="j-t"> Jatin Saini</div>
                 </a>
             </div>
             <div className="menu">
                 <a href="">Home</a>
                 <a href="">About</a>
                 <a href="">Work</a>
-                <a href="">Connect</a>
             </div>
 
             <div className="theme-container">
-                <img width="30px" src={light}/>
+                <a color="red" href="">Connect</a>
             </div>
 
         </nav>
