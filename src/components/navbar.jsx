@@ -5,11 +5,7 @@ const NavigationSection = () => {
 
     return (
         <nav className="navbar-container">
-            <div>
-                <a href="/">
-                   <div className="j-t"> Jatin Saini</div>
-                </a>
-            </div>
+            <a href="/" className="menu"> Jatin Saini</a>
             <div className="menu">
                 <a href="">Home</a>
                 <a href="">About</a>

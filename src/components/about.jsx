@@ -15,7 +15,6 @@ const AboutSection = () => {
           <div className="about-img">
             <img src={jatin} alt="" />
           </div>
-          <hr />
           <div className="about-me">
             <h1 className="jatin">Hey! I am Jatin</h1>
             <p className="about-dis">
