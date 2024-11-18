@@ -11,7 +11,7 @@ const HeroSection = () => {
   const content1 = (
     <div className='result-container'>
       <img className='img9' src={javascript}></img>
-      <p className='result-p'>Solid understanding of JavaScript fundamentals, including ES6 features such as arrow functions, promises, async/await, and modules. I can write clean, efficient, and maintainable code.</p>
+      <p className='result-p'>Solid understanding of JavaScript fundamentals, including ES6 features such as arrow functions, promises, async/await, and modules.</p>
       <p className='result-p'>Skilled in using JavaScript to manipulate the Document Object Model (DOM) to create responsive user interfaces and enhance user experiences.</p>
       <p className='result-p'><strong>FrameWorks:   </strong> <a href="https://react.dev/">react</a>, <a href="https://editor.p5js.org/JatinSainiOO7/sketches">p5.js</a>, <a href="https://threejs.org/">three.js</a></p>
       <p className='result-p'><strong>Projects:   </strong> <a href="https://react.dev/">Portfolio</a></p>

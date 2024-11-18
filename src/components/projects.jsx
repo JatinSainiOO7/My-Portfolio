@@ -27,7 +27,8 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <div>
+    <div className="p">
+      <hr />
       <center>
         <h1 className="project-title">My Projects_</h1>
       </center>
