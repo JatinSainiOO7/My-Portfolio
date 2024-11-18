@@ -27,28 +27,6 @@ function App() {
 
   return (
     <>
-    <div className='social-container'>
-    <div onClick={toggleTheme}>
-        {theme === 'light' ? (
-          <>
-            <img  className='img-h'  src={light}/>
-          </>
-        ) : (
-          <>
-          <img className='img-h' src={dark}/> 
-          </>
-        )}
-      </div>
-      <a href="https://github.com/JatinSainiOO7">
-        <img className='img-h' src={github} alt="github" />
-      </a>
-      <a href="https://www.linkedin.com/in/jatin-saini-711055294/">
-        <img className='img-h' src={linkedin} alt="LinkedIn" />
-      </a>
-      <a href="https://x.com/JatinSaini0O7">
-        <img className='img-h' src={twitter} alt="twitter" />
-      </a>
-    </div>
     <Headrer />
     <Main />
     <Footer />

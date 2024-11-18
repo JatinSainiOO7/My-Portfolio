@@ -2,7 +2,7 @@ import "../styles/global.scss";
 import { useState } from "react";
 
 // Import your SVG assets
-import github from '../assets/svg/githubWhite.svg';
+import github from '../assets/svg/github.svg';
 import figma from '../assets/svg/figma.svg';
 import p5 from '../assets/svg/p5.svg';
 import python from '../assets/svg/python.svg';

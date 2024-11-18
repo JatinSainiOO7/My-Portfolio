@@ -1,7 +1,7 @@
 import "../styles/components.scss";
-import jatin from "../assets/jatin.jpg";
 import Button from "../components/button.jsx";
 import Links from "../components/link.jsx";
+import jatin from '../assets/jatin.jpg'
 
 const AboutSection = () => {
   return (
@@ -12,9 +12,7 @@ const AboutSection = () => {
           <h1 className="title">About My Self_</h1>
         </center>
         <div className="about-container">
-          <div className="about-img">
-            <img src={jatin} alt="" />
-          </div>
+          <img className="about-img" src={jatin}></img>
           <div className="about-me">
             <h1 className="jatin">Hey! I am Jatin</h1>
             <p className="about-dis">

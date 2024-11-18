@@ -80,33 +80,88 @@ pre {
     padding-bottom: 2rem;
 }
 
-.navbar-container {
+.navbar-container-1 {
     width: 100%;
-    padding: 1%;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
     align-items: center;
-    // border: 1px solid red;
 
-    .j-t {
-        font-weight: 700;
-        position: relative;
-        z-index: 11;
+    .resume {
+        padding: 10px;
         font-size: larger;
-        // transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+        font-weight: 300;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: rgba(0, 45, 108, 0.71);
+        border-bottom: #ffffff solid 3px;
+        transition: ease-in-out 0.1s;
+        a:hover {
+            color: white;
+        }
+    }
+    .resume:hover {
+        border-bottom: #fff700 solid 3px;
+        background-color: rgba(0, 44, 105);
+        cursor: pointer;
+    }
+    .j{
+        margin-left: 20px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: #ffffff;
+
+        .box {
+            width: 25px;
+            height: 25px;
+            font-size: large;
+            font-style: 700;
+            padding: 2%;
+            margin-right: 10px;
+            color: var(--background-color);
+            background-color: white;
+        }
+
+        .bjs{
+            font-weight: 600;
+            color: var(--background-color);
+        }
+    }
+    .j:hover{
+        cursor: pointer;
+    }
+    .j-t {
+        font-weight: 500;
+        font-size: larger;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     }
 
     .menu {
-        width: auto;
+        width: max-content;
+        padding: 5px;
         display: flex;
-        gap: 2rem;
+        font-weight: 500;
+        letter-spacing:1px;
+        font-size: 16px;
+        a:hover {
+            color: white;
+        }
+
+        .n{ 
+            margin-right: 20px;
+            line-height: 15px;
+            border-bottom: var(--background-color) solid 2px;
+            transition: ease-in-out 0.2s;
+        }
+        .n:hover{
+            border-bottom-style: groove;
+            border-bottom: #ffffff solid 2px;
+        }
     }
 
     @media (max-width: 900px) {
-        display: none;
+        
     }
 }
 // ================================================================= //
@@ -128,7 +183,7 @@ pre {
 
     .coll {
         width: 100%;
-        padding: 5em;
+        padding: 4em;
 
         @media (max-width: 900px) {
             padding: 5px;
@@ -160,38 +215,41 @@ pre {
                 .child {
                     color: rgb(218, 218, 218); /* Initial text color */
                     text-decoration: none; /* Remove underline */
-                    font-size: small;
                     cursor: pointer;
-                    font-weight: 300;
+                    font-size: small;
+                    font-weight: 400;
                     transition: color 0.3s ease; /* Smooth transition */
-                    // margin: 5px; /* Spacing between links */
                 }
 
                 .child:hover {
-                    text-decoration: underline;
-                    color: #fff700;
+                    color: #ffffff;
                 }
                 
                 .child.active {
                     text-decoration: underline;
-                    color:#fff700; /* Active color when class is added */
+                    color:#ffffff; /* Active color when class is added */
                 }
 
             }
             .result {
                 width: inherit;
                 height: inherit;
-                background-color: rgb(42, 101, 164);
+                background-color: rgb(30, 76, 125);
             }
 
             .result-container {
                 padding: 2%;
+                .img9{
+                    width: 50px;
+                    margin-left: 90%;
+                    height: auto;
+                }
 
                 .result-p {
-                    padding: 1%;
                     font-size: small;
                     color: #ffffff;
                     cursor: pointer;
+                    letter-spacing: 1px;
                 }
                 a{
                     text-decoration: underline;
@@ -288,14 +346,12 @@ pre {
     height: fit-content;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    max-width: 1400px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
 
     .about-container {
-        width: 100%;
-        height: inherit;
         display: flex;
         justify-content: space-between;
         gap: 2em;
@@ -311,28 +367,18 @@ pre {
         .about-img {
             width: 300px;
             height: 300px;
-            border: 5px solid var(--background-color);
-            border-style: double;
-            border-radius: 50%;
-            box-shadow: var(--background-color) 0px 5px 15px;
-
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 50%;
-            }
-
-            @media (max-width: 900px) {
-                border-radius: 100%;
-            }
+            border: 2px solid var(--background-color);
+            background-image: url();
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
         }
+
         .about-me {
             width: 70%;
             color: white;
             display: flex;
             flex-direction: column;
-            gap: 2%;
 
             .jatin {
                 color: var(--background-color);
@@ -341,13 +387,11 @@ pre {
             }
 
             .about-dis {
-                padding: none;
                 font-size: large;
                 color: black;
             }
 
             .tech-button-container {
-                width: 100%;
                 opacity: 1;
                 will-change: auto;
 
@@ -369,13 +413,14 @@ pre {
                         align-items: center;
                         transition: ease-in-out 0.2s;
                     }
+
                     .tech-button:hover {
                         z-index: 10;
-                        scale: 110%;
+                        scale: 105%;
+                        color: white;
                         background-color: var(--background-color);
                     }
                 }
-
                 /* Pop-up container that appears on hover */
             }
             /* Styles for the link button */
@@ -388,14 +433,15 @@ pre {
                 border-radius: 5px;
                 text-align: center;
                 margin: 20px;
+                opacity: 1;
+                will-change: auto;
             }
-
             /* Pop-up container that appears on hover */
             .popup-container {
                 position: absolute; /* Use absolute positioning */
                 width: 200px; /* Fixed size */
                 height: 200px;
-                background-color: rgb(0, 0, 0);
+                background-color: aliceblue;
                 border-radius: 5px;
                 border: 1px solid #ddd;
                 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -405,18 +451,17 @@ pre {
                 clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 57% 95%, 50% 100%, 42% 95%, 0 95%);
                 transition: ease-in-out 0.02s;
             }
-
             /* Styles for the image inside the pop-up container */
             .popup-image {
-                padding: 20%;
+                padding: 10%;
                 position: center;
                 object-fit: cover;
-                transition: ease-in-out 1s; 
+                transition: ease-in-out 1s;
             }
+
             .popup-image:hover {
                 scale: 100%;
             }
-
             /* Additional hover effects (optional) */
             .link-button:hover {
                 background-color: #0056b3;
@@ -425,12 +470,11 @@ pre {
             .links {
                 width: auto;
                 height: auto;
-                display: inline-block;
+                opacity: 1;
+                will-change: auto;
             }
-        } 
+        }
     }
-
-   
 }
 
 // ================================================================= //
@@ -572,7 +616,7 @@ pre {
             z-index: -1;
             background-position: center;
             background-repeat: no-repeat;
-            filter: blur(1);
+            // filter: blur(1);
             overflow: hidden;
             transition: all 0.6s;
         }
