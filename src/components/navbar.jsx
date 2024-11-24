@@ -1,5 +1,6 @@
 
 import "../styles/components.scss";
+import resume from '../assets/resume.pdf'
 const NavigationSection = () => {
 
 
@@ -7,20 +8,22 @@ const NavigationSection = () => {
         <nav className="navbar-container-1">
             <div className="navbar-container-1">
                 <div href="/" className="j">
-                <div className="box"><a className="bjs">JS</a></div> JatinSaini</div>
+                    <div className="box"><a className="bjs">JS</a></div> JatinSaini</div>
                 <div className="menu">
                     <a className="n" href="https://jatinsainioo7.github.io/My-Portfolio/">Home</a>
-                    <a className="n" href="https://github.com/JatinSainiOO7?tab=repositories">Work</a>
-                    <a className="n" href="https://editor.p5js.org/JatinSainiOO7/sketches">GenrativeArt</a>
-                    <a className="n" href="https://www.linkedin.com/in/jatin-saini-711055294/">LinkedIn</a>
-                    <a className="n" href="https://leetcode.com/u/JatinSainiOO7/">LeetCode</a>
-                    <a className="n" href="https://x.com/JatinSaini0O7">Twitter</a>
+                    <a className="n" href="https://github.com/JatinSainiOO7?tab=repositories" target="_blank">Work</a>
+                    <a className="n" href="https://editor.p5js.org/JatinSainiOO7/sketches" target="_blank">GenrativeArt</a>
+                    <a className="n" href="https://www.linkedin.com/in/jatin-saini-711055294/" target="_blank">LinkedIn</a>
+                    <a className="n" href="https://leetcode.com/u/JatinSainiOO7/" target="_blank">LeetCode</a>
+                    <a className="n" href="https://x.com/JatinSaini0O7" target="_blank">Twitter</a>
                 </div>
             </div>
 
-            <div className="resume">
-                <a color="red" href="https://www.canva.com/design/DAGXYyjz8o0/DeJOlgnM8zhP0LjMx5HnrQ/edit?utm_content=DAGXYyjz8o0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Resume</a>
-            </div>
+            <a href={resume} target="_blank">
+                <div className="resume">
+                    <a color="red">Resume</a>
+                </div>
+            </a>
         </nav>
     );
 };

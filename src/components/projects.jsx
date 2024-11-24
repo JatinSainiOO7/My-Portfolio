@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       name: "API Basics",
       description: "API intregation site",
       img: "https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/white/Photoroom_white_background_extremely_fine_texture_only_white_co_9eaf61eb-311d-49fc-b703-a2477a59d2ce.jpg",
-        link: "https://github.com/JatinSainiOO7/API-Basics",
+        link: "https://github.com/JatinSainiOO7/API-Basics" ,
     },
     
   ];
@@ -39,6 +39,7 @@ const ProjectsSection = () => {
               key={item.key}
               href={item.link}
               className="project-card-container"
+              target="_blank"
             >
               <img className="project-img" src={item.img} alt="" />
               <div className="project-details">

@@ -99,7 +99,7 @@ const ButtonComponent = () => {
       onMouseMove={handleMouseMove}
     >
       {TechButtons.map((button, index) => (
-        <a key={index} href={button.link} className="tech-button" onMouseEnter={() => handleMouseEnter(button.img)}>
+        <a key={index} href={button.link} target="_blank" className="tech-button" onMouseEnter={() => handleMouseEnter(button.img)}>
           {button.name}
         </a>
       ))}
