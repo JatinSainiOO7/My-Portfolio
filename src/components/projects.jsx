@@ -7,21 +7,21 @@ const ProjectsSection = () => {
       name: "My-Potfolio",
       description: "react based site",
       img: "https://i.pinimg.com/736x/bc/f3/81/bcf381481c2454abda805aa824bc3092.jpg",
-      link: "http://",
+      link: "https://github.com/JatinSainiOO7/My-Portfolio",
     },
     {
       key: 2,
       name: "JSSD.com",
       description: "community web site",
       img: "https://static.vecteezy.com/system/resources/thumbnails/001/874/132/small_2x/abstract-geometric-white-background-free-vector.jpg",
-      link: "http://",
+        link: "https://github.com/JatinSainiOO7/JSSD",
     },
     {
       key: 3,
-      name: "Coin Clush",
+      name: "API Basics",
       description: "API intregation site",
       img: "https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/white/Photoroom_white_background_extremely_fine_texture_only_white_co_9eaf61eb-311d-49fc-b703-a2477a59d2ce.jpg",
-      link: "http://",
+        link: "https://github.com/JatinSainiOO7/API-Basics",
     },
     
   ];

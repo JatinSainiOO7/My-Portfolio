@@ -1,7 +1,7 @@
 import "../styles/components.scss";
 import Button from "../components/button.jsx";
 import Links from "../components/link.jsx";
-import jatin from '../assets/jatin.jpg'
+import jatin from '../assets/svg/jatin.svg'
 
 const AboutSection = () => {
   return (

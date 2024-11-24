@@ -1,6 +1,8 @@
 import '../styles/components.scss'
 import code from '../assets/svg/code.svg'
 import api from '../assets/svg/api.svg'
+import uxui from '../assets/svg/uxui.svg'
+import frontend from '../assets/svg/fronted.svg'
 const WorkSection = () => {
     return (
         <>
@@ -9,7 +11,7 @@ const WorkSection = () => {
             <div className='work-card-container'>
                 <div className='card'>
                     <center><div className="card-img">
-                        <img src={code} alt="" /></div></center>
+                            <img src={frontend} alt="" /></div></center>
                     <center><h1 className='card-title'>Frontend Development</h1></center>
                     <center><p className='card-dis'>Crafting sleek, responsive, and modern web applications</p></center>
                 </div>
@@ -20,8 +22,8 @@ const WorkSection = () => {
                     <center><p className='card-dis'>Transforming Figma designs into pixel-perfect React components</p></center>
                 </div>
                 <div className='card'>
-                    <center><div className="card-img">
-                    <img src={code} alt="" /></div></center>
+                        <center><div className="card-img">
+                            <img src={uxui} alt="" /></div></center>
                     <center><h1 className='card-title'>UI/UX Design</h1></center>
                     <center><p className='card-dis'>Crafting sleek, responsive, and modern web applications</p></center>
                 </div>

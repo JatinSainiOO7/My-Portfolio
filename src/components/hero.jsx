@@ -14,7 +14,7 @@ const HeroSection = () => {
       <p className='result-p'>Solid understanding of JavaScript fundamentals, including ES6 features such as arrow functions, promises, async/await, and modules.</p>
       <p className='result-p'>Skilled in using JavaScript to manipulate the Document Object Model (DOM) to create responsive user interfaces and enhance user experiences.</p>
       <p className='result-p'><strong>FrameWorks:   </strong> <a href="https://react.dev/">react</a>, <a href="https://editor.p5js.org/JatinSainiOO7/sketches">p5.js</a>, <a href="https://threejs.org/">three.js</a></p>
-      <p className='result-p'><strong>Projects:   </strong> <a href="https://react.dev/">Portfolio</a></p>
+          <p className='result-p'><strong>Projects:   </strong> <a href="https://jatinsainioo7.github.io/My-Portfolio/">Portfolio</a></p>
     </div>
   );
 
@@ -22,7 +22,7 @@ const HeroSection = () => {
     <div className='result-container'>
       <img className='img9' src={typescript}></img>
       <p className='result-p'>Basic understanding of TypeScript, including its core features like typing, interfaces, and classes. He is familiar with its integration into modern JavaScript frameworks such as React, enabling him to enhance code quality, maintainability, and development efficiency.</p>    
-      <p className='result-p'><strong>Projects:   </strong> <a href="https://react.dev/">WebBook</a>, <a href="https://editor.p5js.org/JatinSainiOO7/sketches">JSSD.com</a></p>
+          <p className='result-p'><strong>Projects:   </strong> <a href="https://jatinsainioo7.github.io/TypeScript-Basics/">WebBook</a>, <a href="https://github.com/JatinSainiOO7/JSSD">JSSD.com</a></p>
     </div>
       
   );

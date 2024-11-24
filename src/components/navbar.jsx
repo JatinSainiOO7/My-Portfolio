@@ -9,7 +9,7 @@ const NavigationSection = () => {
                 <div href="/" className="j">
                 <div className="box"><a className="bjs">JS</a></div> JatinSaini</div>
                 <div className="menu">
-                    <a className="n" href="/">Home</a>
+                    <a className="n" href="https://jatinsainioo7.github.io/My-Portfolio/">Home</a>
                     <a className="n" href="https://github.com/JatinSainiOO7?tab=repositories">Work</a>
                     <a className="n" href="https://editor.p5js.org/JatinSainiOO7/sketches">GenrativeArt</a>
                     <a className="n" href="https://www.linkedin.com/in/jatin-saini-711055294/">LinkedIn</a>
@@ -19,7 +19,7 @@ const NavigationSection = () => {
             </div>
 
             <div className="resume">
-                <a color="red" href="">Resume</a>
+                <a color="red" href="https://www.canva.com/design/DAGXYyjz8o0/DeJOlgnM8zhP0LjMx5HnrQ/edit?utm_content=DAGXYyjz8o0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Resume</a>
             </div>
         </nav>
     );

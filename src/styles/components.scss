@@ -225,12 +225,12 @@ pre {
                 }
 
                 .child:hover {
-                    color: #ffffff;
+                    color: white;
                 }
                 
                 .child.active {
                     text-decoration: underline;
-                    color:#ffffff; /* Active color when class is added */
+                    color:yellow; /* Active color when class is added */
                 }
 
             }
@@ -347,12 +347,11 @@ pre {
 .about-section {
     width: 100%;
     height: fit-content;
-    margin-top: 5rem;
+    margin-top: 3em;
     margin-bottom: 5rem;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3em;
 
     .about-container {
         display: flex;
