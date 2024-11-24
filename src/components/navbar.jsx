@@ -1,6 +1,5 @@
 
 import "../styles/components.scss";
-// import resume from '../assets/resume.pdf'
 const NavigationSection = () => {
 
 
