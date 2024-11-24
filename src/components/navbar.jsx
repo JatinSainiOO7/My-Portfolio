@@ -1,6 +1,6 @@
 
 import "../styles/components.scss";
-import resume from '../assets/resume.pdf'
+// import resume from '../assets/resume.pdf'
 const NavigationSection = () => {
 
 
@@ -19,7 +19,7 @@ const NavigationSection = () => {
                 </div>
             </div>
 
-            <a href={resume} target="_blank">
+            <a href="https://drive.google.com/file/d/1dnKOkp8wmtR_I3HTq4SXlpswpmPlIFfb/view?usp=drive_link" target="_blank">
                 <div className="resume">
                     <a color="red">Resume</a>
                 </div>

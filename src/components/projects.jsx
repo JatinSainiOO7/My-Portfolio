@@ -73,16 +73,4 @@ const ProjectsSection = () => {
     </div>
   );
 };
-
-ProjectsSection.propTypes = {
-  projects: PropTypes.arrayOf(
-    PropTypes.shape({
-      key: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      discription: PropTypes.string.isRequired,
-      img: PropTypes.string.isRequired,
-      link: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-};
 export default ProjectsSection;
