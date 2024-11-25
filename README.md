@@ -3,7 +3,7 @@
 
 ## **Welcome to the repository of my personal portfolio website! This project showcases my skills, projects, and achievements in front-end development and beyond.**
 
-<img src="[https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif](https://drive.google.com/file/d/1OFTOgjlQqvnjcewyZBwt-uS8GGLPAlqH/view?usp=drive_link)" />
+<img width=100% src="https://pbs.twimg.com/media/GdMn7HnbcAAhgdl?format=jpg&name=large" />
 
 ## 🚀 Features  
 
