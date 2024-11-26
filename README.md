@@ -1,8 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟 Jatin Saini - Portfolio Website  
 
-Currently, two official plugins are available:
+## **Welcome to the repository of my personal portfolio website! This project showcases my skills, projects, and achievements in front-end development and beyond.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width=100% src="https://pbs.twimg.com/media/GdMn7HnbcAAhgdl?format=jpg&name=large" />
+
+## 🚀 Features  
+
+- **Interactive Design**: Dynamic image changes based on hover interactions.  
+- **Responsive UI**: Fully optimized for devices of all screen sizes.  
+- **Technology Showcase**: Demonstrates expertise in React, TypeScript, SCSS, and p5.js.  
+- **Project Highlights**: Features detailed descriptions and links to my notable projects.  
+
+## 🛠️ Tech Stack  
+
+- **Framework**: [React](https://reactjs.org/) (with [Vite](https://vitejs.dev/))  
+- **Styling**: [SCSS](https://sass-lang.com/)  
+- **Animation/Graphics**: [p5.js](https://p5js.org/)  
+
+## 📂 Project Structure  
+
+<pre>
+  📁 src/
+   ├── components/   # Reusable React components
+   ├── styles/       # SCSS files for styling
+   ├── assets/       # Images and other static resources
+   ├── hooks/        # Custom React hooks
+   ├── utils/        # Helper functions
+   └── App.tsx       # Main app file
+</pre>
+
+## 🌐 Live Demo
+- **Check out the live website**: [My Portfolio](https://jatinsainioo7.github.io/My-Portfolio/)
+
+## 🤝 Contribution
+**Contributions are welcome! If you'd like to suggest improvements or report bugs**:
+
+- Fork this repository.
+- Create a new branch (git checkout -b feature-name).
+- Commit your changes (git commit -m 'Add feature/fix bug').
+- Push to the branch (git push origin feature-name).
+- Open a Pull Request.
+
+## 📜 License
+- This project is licensed under the MIT License.
