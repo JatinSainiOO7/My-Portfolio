@@ -18,7 +18,7 @@ const NavigationSection = () => {
                 </div>
             </div>
 
-            <a href="https://drive.google.com/file/d/1dnKOkp8wmtR_I3HTq4SXlpswpmPlIFfb/view?usp=drive_link" target="_blank">
+            <a href="https://www.canva.com/design/DAGXYyjz8o0/DeJOlgnM8zhP0LjMx5HnrQ/edit" target="_blank">
                 <div className="resume">
                     <a color="red">Resume</a>
                 </div>

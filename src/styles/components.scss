@@ -356,7 +356,7 @@ pre {
     .about-container {
         display: flex;
         justify-content: space-between;
-        // gap: 2em;
+        gap: 2em;
 
         @media (max-width: 900px) {
             width: 100%;
@@ -714,15 +714,17 @@ pre {
         align-items: center;
 
         form {
-            width: 95%;
+            width: 500px;
             border: var(--background-color) solid 1px;
             border-radius: 10px;
             display: block;
             align-items: center;
             background-color: #fafcff;
-            // margin: 1%;
-            // padding: 1%;
-
+            margin: 1%;
+            padding: 1%;
+            @media (width <= 600px) {
+                width: 95%;
+            }
             .input-box {
                 width: 100%;
                 padding: 10px;
@@ -762,6 +764,7 @@ pre {
                 border-radius: 5px;
                 border: solid 1px var(--background-color);
             }
+
         }
     }
 }
