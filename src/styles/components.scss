@@ -356,13 +356,12 @@ pre {
     .about-container {
         display: flex;
         justify-content: space-between;
-        gap: 2em;
+        // gap: 2em;
 
         @media (max-width: 900px) {
             width: 100%;
             height: auto;
             align-items: center;
-            // padding: 5%;
             flex-direction: column;
         }
 
@@ -376,7 +375,7 @@ pre {
         }
 
         .about-me {
-            width: 70%;
+            width: 95%;
             color: white;
             display: flex;
             flex-direction: column;
@@ -715,14 +714,14 @@ pre {
         align-items: center;
 
         form {
-            width: 600px;
+            width: 95%;
             border: var(--background-color) solid 1px;
             border-radius: 10px;
             display: block;
             align-items: center;
             background-color: #fafcff;
-            margin: 1%;
-            padding: 1%;
+            // margin: 1%;
+            // padding: 1%;
 
             .input-box {
                 width: 100%;
@@ -740,13 +739,10 @@ pre {
                 input,
                 textarea {
                     color: rgb(0, 0, 0);
-                    font-size: 20px;
                     background: transparent;
                     padding: 1%;
                     padding-bottom: 0;
-                    // background-color: var(--background-color);
                     text-decoration: none;
-                    height: 50px;
                     border: none;
                     border-bottom: solid 1px black;
                 }
@@ -755,8 +751,6 @@ pre {
                     min-height: 200px;
                     place-items: end;
                     border: 1px solid black;
-                    // overflow: hidden;
-                    resize: none;
                 }
             }
 

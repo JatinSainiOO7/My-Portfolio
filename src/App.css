@@ -22,20 +22,3 @@ button svg:hover {
     stroke: rgb(0, 0, 0);
     stroke-width: 2rem;
 }
-
-/* Light theme styles */
-.light-theme {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-/* Dark theme styles */
-.dark-theme {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-body.light {
-  background-color: #ffffff;
-  color: #4444447a !important;
-}
