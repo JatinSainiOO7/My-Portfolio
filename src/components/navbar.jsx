@@ -18,11 +18,13 @@ const NavigationSection = () => {
                 </div>
             </div>
 
-            <a href="https://www.canva.com/design/DAGXYyjz8o0/DeJOlgnM8zhP0LjMx5HnrQ/edit" target="_blank">
-                <div className="resume">
-                    <a color="red">Resume</a>
-                </div>
-            </a>
+            <div>
+                <a href="https://www.canva.com/design/DAGXYyjz8o0/DeJOlgnM8zhP0LjMx5HnrQ/edit" target="_blank">
+                    <div className="resume">
+                        <a color="red">Resume</a>
+                    </div>
+                </a>
+            </div>
         </nav>
     );
 };
